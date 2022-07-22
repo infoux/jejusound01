@@ -726,16 +726,21 @@ header {
                 margin: 20px 0 5px 0;
                 font-weight: 500;
               }
-              strong{
-                color: #177eb9;
-                font-weight: 400;
-              }
               span{
                 @media (max-width: $screen-size-mobile) {
                   display: block;
                   margin-top: 5px;
                 }
               }
+            }
+          }
+          .copyright{
+            color: #666;
+            float: left;
+            margin: 0;
+            strong{
+              color: #177eb9;
+              font-weight: 400;
             }
           }
         }

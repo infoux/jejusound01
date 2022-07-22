@@ -3055,14 +3055,20 @@ body footer#footer div.container div.footer-columns address p.ban {
   font-weight: 500;
 }
 
-body footer#footer div.container div.footer-columns address p strong {
-  color: #177eb9;
-  font-weight: 400;
-}
-
 @media (max-width: 1200px) {
   body footer#footer div.container div.footer-columns address p span {
     display: block;
     margin-top: 5px;
   }
+}
+
+body footer#footer div.container div.footer-columns .copyright {
+  color: #666;
+  float: left;
+  margin: 0;
+}
+
+body footer#footer div.container div.footer-columns .copyright strong {
+  color: #177eb9;
+  font-weight: 400;
 }
