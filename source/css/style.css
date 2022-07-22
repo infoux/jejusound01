@@ -3050,11 +3050,6 @@ body footer#footer div.container div.footer-columns address p.clear {
   clear: both;
 }
 
-body footer#footer div.container div.footer-columns address p.ban {
-  margin: 20px 0 5px 0;
-  font-weight: 500;
-}
-
 @media (max-width: 1200px) {
   body footer#footer div.container div.footer-columns address p span {
     display: block;
@@ -3062,7 +3057,16 @@ body footer#footer div.container div.footer-columns address p.ban {
   }
 }
 
+body footer#footer div.container div.footer-columns .ban {
+  font-size: 14px;
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+  color: #666;
+  float: left;
+}
+
 body footer#footer div.container div.footer-columns .copyright {
+  font-size: 14px;
   color: #666;
   float: left;
   margin: 0;

@@ -722,10 +722,6 @@ header {
                 margin-left: 0;
                 clear: both;
               }
-              &.ban{
-                margin: 20px 0 5px 0;
-                font-weight: 500;
-              }
               span{
                 @media (max-width: $screen-size-mobile) {
                   display: block;
@@ -734,7 +730,15 @@ header {
               }
             }
           }
+          .ban{
+            font-size: 14px;
+            margin: 20px 0 5px 0;
+            font-weight: 500;
+            color: #666;
+            float: left;
+          }
           .copyright{
+            font-size: 14px;
             color: #666;
             float: left;
             margin: 0;
