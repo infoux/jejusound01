@@ -2186,7 +2186,7 @@ body div#content.main section.page01 .page01-text {
   z-index: 1;
 }
 
-body div#content.main section.page01 .page01-text h1 {
+body div#content.main section.page01 .page01-text h2 {
   font-size: 150px;
   color: #000;
   text-shadow: #fff 7px 10px;
@@ -2196,20 +2196,23 @@ body div#content.main section.page01 .page01-text h1 {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page01 .page01-text h1 {
+  body div#content.main section.page01 .page01-text h2 {
     font-size: 50px;
   }
 }
 
-body div#content.main section.page01 .page01-text h3 {
+body div#content.main section.page01 .page01-text h2 small {
+  display: block;
   font-size: 45px;
   font-weight: 500;
   color: #000;
   margin: 15px 0 0;
+  text-shadow: none;
+  font-family: 'S-CoreDream';
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page01 .page01-text h3 {
+  body div#content.main section.page01 .page01-text h2 small {
     margin: 30px 0 0;
     font-size: 14px;
   }
@@ -2304,8 +2307,8 @@ body div#content.main section.page02 .scroll-graphic .graphic-item {
   top: 0;
   width: 100%;
   height: 100vh;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   opacity: 0;
   will-change: opacity;
 }
@@ -2351,7 +2354,7 @@ body div#content.main section.page02 .scroll-graphic .graphic-item .step p {
 
 body div#content.main section.page02 .blank {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
 }
 
 @media (max-width: 1200px) {
@@ -2429,74 +2432,80 @@ body div#content.main section.page03 .page03-map {
   }
 }
 
-body div#content.main section.page03 .page03-map span {
+body div#content.main section.page03 .page03-map button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: red;
   display: block;
   position: absolute;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  border: none;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map span {
+  body div#content.main section.page03 .page03-map button {
     width: 20px;
     height: 20px;
   }
 }
 
-body div#content.main section.page03 .page03-map span:hover {
+body div#content.main section.page03 .page03-map button:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-body div#content.main section.page03 .page03-map span.map-senter01 {
+body div#content.main section.page03 .page03-map button:focus {
+  border: 2px solid #000;
+}
+
+body div#content.main section.page03 .page03-map button.map-senter01 {
   top: 100px;
   right: 280px;
   background-color: green;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map span.map-senter01 {
+  body div#content.main section.page03 .page03-map button.map-senter01 {
     top: 50px;
     right: 110px;
   }
 }
 
-body div#content.main section.page03 .page03-map span.map-senter02 {
+body div#content.main section.page03 .page03-map button.map-senter02 {
   top: 160px;
   right: 330px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map span.map-senter02 {
+  body div#content.main section.page03 .page03-map button.map-senter02 {
     top: 70px;
     right: 140px;
   }
 }
 
-body div#content.main section.page03 .page03-map span.map-senter03 {
+body div#content.main section.page03 .page03-map button.map-senter03 {
   bottom: 150px;
   right: 270px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map span.map-senter03 {
+  body div#content.main section.page03 .page03-map button.map-senter03 {
     bottom: 55px;
     right: 110px;
   }
 }
 
-body div#content.main section.page03 .page03-map span.map-senter04 {
+body div#content.main section.page03 .page03-map button.map-senter04 {
   bottom: 110px;
   left: 300px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map span.map-senter04 {
+  body div#content.main section.page03 .page03-map button.map-senter04 {
     bottom: 45px;
     left: 110px;
   }
