@@ -1,0 +1,63 @@
+        
+    @font-face {
+      font-family: 'KOTRALEAP';
+      src: url(../font/KOTRALEAP.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'S-CoreDream';
+    src: url(../font/S-CoreDream-4Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'S-CoreDream';
+    src: url(../font/S-CoreDream-5Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream';
+  src: url(../font/S-CoreDream-7ExtraBold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YeolrinMyeongjo';
+  src: url(../font/YeolrinMyeongjo-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YeolrinMyeongjo';
+  src: url(../font/YeolrinMyeongjo-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+$myfont: "S-CoreDream","YeolrinMyeongjo";
+
+
+@mixin txt($weight) {
+    @if $weight == light {
+        font-weight:300;
+    }
+    @else if $weight == normal {
+        font-weight:400;
+    }
+    @else if $weight == bold {
+        font-weight:700;
+    }
+    @else if $weight == bolder {
+        font-weight:800;
+    }
+}
