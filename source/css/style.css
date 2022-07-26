@@ -426,16 +426,51 @@ th {
 }
 
 @font-face {
-  font-family: 'YeolrinMyeongjo';
-  src: url(../font/YeolrinMyeongjo-Light.woff) format("woff");
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-ExtraLight.otf) format("oft");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-Light.otf) format("oft");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'YeolrinMyeongjo';
-  src: url(../font/YeolrinMyeongjo-Bold.woff) format("woff");
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-Regular.otf) format("oft");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-Medium.otf) format("oft");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-SemiBold.otf) format("oft");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-Bold.otf) format("oft");
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(../font/NotoSerifKR-Black.otf) format("oft");
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -558,22 +593,22 @@ input[type="password"] {
 
 s
 input[type="password"]::-webkit-input-placeholder {
-  font-family: "S-CoreDream", "YeolrinMyeongjo", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]:-ms-input-placeholder {
-  font-family: "S-CoreDream", "YeolrinMyeongjo", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]::-ms-input-placeholder {
-  font-family: "S-CoreDream", "YeolrinMyeongjo", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]::placeholder {
-  font-family: "S-CoreDream", "YeolrinMyeongjo", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 .sr-only {
@@ -2064,7 +2099,7 @@ html {
 
 body,
 html {
-  font-family: "S-CoreDream", "YeolrinMyeongjo", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 @media (max-width: 1199px) {
@@ -2158,7 +2193,7 @@ body div#content {
   /* MAIN */
 }
 
-body div#content.main section.page01 {
+body div#content.news01 section.page01 {
   position: relative;
   background: url("/source/images/jejuimage01.png") no-repeat center/cover fixed;
   display: -webkit-box;
@@ -2172,7 +2207,7 @@ body div#content.main section.page01 {
           align-items: center;
 }
 
-body div#content.main section.page01::before {
+body div#content.news01 section.page01::before {
   content: '';
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -2182,11 +2217,11 @@ body div#content.main section.page01::before {
   right: 0;
 }
 
-body div#content.main section.page01 .page01-text {
+body div#content.news01 section.page01 .page01-text {
   z-index: 1;
 }
 
-body div#content.main section.page01 .page01-text h2 {
+body div#content.news01 section.page01 .page01-text h2 {
   font-size: 150px;
   color: #000;
   text-shadow: #fff 7px 10px;
@@ -2196,12 +2231,12 @@ body div#content.main section.page01 .page01-text h2 {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page01 .page01-text h2 {
+  body div#content.news01 section.page01 .page01-text h2 {
     font-size: 50px;
   }
 }
 
-body div#content.main section.page01 .page01-text h2 small {
+body div#content.news01 section.page01 .page01-text h2 small {
   display: block;
   font-size: 45px;
   font-weight: 500;
@@ -2212,13 +2247,13 @@ body div#content.main section.page01 .page01-text h2 small {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page01 .page01-text h2 small {
+  body div#content.news01 section.page01 .page01-text h2 small {
     margin: 30px 0 0;
     font-size: 14px;
   }
 }
 
-body div#content.main section.page01 .icon-scroll {
+body div#content.news01 section.page01 .icon-scroll {
   position: absolute;
   left: 50%;
   bottom: 10%;
@@ -2233,7 +2268,7 @@ body div#content.main section.page01 .icon-scroll {
   transition: all 0.5s;
 }
 
-body div#content.main section.page01 .icon-scroll i {
+body div#content.news01 section.page01 .icon-scroll i {
   color: #000;
   font-size: 50px;
 }
@@ -2260,12 +2295,12 @@ body div#content.main section.page01 .icon-scroll i {
   }
 }
 
-body div#content.main section.page02 {
+body div#content.news01 section.page02 {
   height: auto;
   position: relative;
 }
 
-body div#content.main section.page02 .scroll-graphic {
+body div#content.news01 section.page02 .scroll-graphic {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -2277,12 +2312,12 @@ body div#content.main section.page02 .scroll-graphic {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page02 .scroll-graphic {
+  body div#content.news01 section.page02 .scroll-graphic {
     height: 100vh;
   }
 }
 
-body div#content.main section.page02 .scroll-graphic::before {
+body div#content.news01 section.page02 .scroll-graphic::before {
   content: '';
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -2292,7 +2327,7 @@ body div#content.main section.page02 .scroll-graphic::before {
   right: 0;
 }
 
-body div#content.main section.page02 .scroll-graphic .graphic-item {
+body div#content.news01 section.page02 .scroll-graphic .graphic-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2314,16 +2349,16 @@ body div#content.main section.page02 .scroll-graphic .graphic-item {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page02 .scroll-graphic .graphic-item {
+  body div#content.news01 section.page02 .scroll-graphic .graphic-item {
     padding: 100px 20px 0;
   }
 }
 
-body div#content.main section.page02 .scroll-graphic .graphic-item.visible {
+body div#content.news01 section.page02 .scroll-graphic .graphic-item.visible {
   opacity: 1;
 }
 
-body div#content.main section.page02 .scroll-graphic .graphic-item .step {
+body div#content.news01 section.page02 .scroll-graphic .graphic-item .step {
   color: #fff;
   background: rgba(255, 255, 255, 0.9);
   width: 850px;
@@ -2332,13 +2367,13 @@ body div#content.main section.page02 .scroll-graphic .graphic-item .step {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page02 .scroll-graphic .graphic-item .step {
+  body div#content.news01 section.page02 .scroll-graphic .graphic-item .step {
     width: 100%;
     padding: 50px 10px 50px 30px;
   }
 }
 
-body div#content.main section.page02 .scroll-graphic .graphic-item .step p {
+body div#content.news01 section.page02 .scroll-graphic .graphic-item .step p {
   text-align: start;
   font-size: 28px;
   font-weight: 500;
@@ -2347,28 +2382,28 @@ body div#content.main section.page02 .scroll-graphic .graphic-item .step p {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page02 .scroll-graphic .graphic-item .step p {
+  body div#content.news01 section.page02 .scroll-graphic .graphic-item .step p {
     font-size: 3vw;
   }
 }
 
-body div#content.main section.page02 .blank {
+body div#content.news01 section.page02 .blank {
   width: 100%;
   height: 100vh;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page02 .blank {
+  body div#content.news01 section.page02 .blank {
     height: 100vh;
   }
 }
 
-body div#content.main section.page03 {
+body div#content.news01 section.page03 {
   position: relative;
   background: url("/source/images/jejuimage03.png") no-repeat center/cover;
 }
 
-body div#content.main section.page03::before {
+body div#content.news01 section.page03::before {
   content: '';
   display: block;
   background: rgba(255, 255, 255, 0.6);
@@ -2379,7 +2414,7 @@ body div#content.main section.page03::before {
   right: 0;
 }
 
-body div#content.main section.page03 .page03-text {
+body div#content.news01 section.page03 .page03-text {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -2389,36 +2424,36 @@ body div#content.main section.page03 .page03-text {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-text {
+  body div#content.news01 section.page03 .page03-text {
     top: 30%;
   }
 }
 
-body div#content.main section.page03 .page03-text h2 {
+body div#content.news01 section.page03 .page03-text h2 {
   text-align: center;
   margin: 0;
   font-size: 60px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-text h2 {
+  body div#content.news01 section.page03 .page03-text h2 {
     font-size: 30px;
   }
 }
 
-body div#content.main section.page03 .page03-text p {
+body div#content.news01 section.page03 .page03-text p {
   text-align: center;
   margin: 10px 0 0;
   font-size: 20px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-text p {
+  body div#content.news01 section.page03 .page03-text p {
     font-size: 10px;
   }
 }
 
-body div#content.main section.page03 .page03-map {
+body div#content.news01 section.page03 .page03-map {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -2426,13 +2461,17 @@ body div#content.main section.page03 .page03-map {
           transform: translate(-50%, -50%);
 }
 
+body div#content.news01 section.page03 .page03-map img {
+  width: 900px;
+}
+
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map img {
+  body div#content.news01 section.page03 .page03-map img {
     width: 350px;
   }
 }
 
-body div#content.main section.page03 .page03-map button {
+body div#content.news01 section.page03 .page03-map button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -2447,71 +2486,71 @@ body div#content.main section.page03 .page03-map button {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map button {
+  body div#content.news01 section.page03 .page03-map button {
     width: 20px;
     height: 20px;
   }
 }
 
-body div#content.main section.page03 .page03-map button:hover {
+body div#content.news01 section.page03 .page03-map button:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-body div#content.main section.page03 .page03-map button:focus {
+body div#content.news01 section.page03 .page03-map button:focus {
   border: 2px solid #000;
 }
 
-body div#content.main section.page03 .page03-map button.map-senter01 {
+body div#content.news01 section.page03 .page03-map button.map-senter01 {
   top: 100px;
   right: 280px;
   background-color: green;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map button.map-senter01 {
+  body div#content.news01 section.page03 .page03-map button.map-senter01 {
     top: 50px;
     right: 110px;
   }
 }
 
-body div#content.main section.page03 .page03-map button.map-senter02 {
+body div#content.news01 section.page03 .page03-map button.map-senter02 {
   top: 160px;
   right: 330px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map button.map-senter02 {
+  body div#content.news01 section.page03 .page03-map button.map-senter02 {
     top: 70px;
     right: 140px;
   }
 }
 
-body div#content.main section.page03 .page03-map button.map-senter03 {
+body div#content.news01 section.page03 .page03-map button.map-senter03 {
   bottom: 150px;
   right: 270px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map button.map-senter03 {
+  body div#content.news01 section.page03 .page03-map button.map-senter03 {
     bottom: 55px;
     right: 110px;
   }
 }
 
-body div#content.main section.page03 .page03-map button.map-senter04 {
+body div#content.news01 section.page03 .page03-map button.map-senter04 {
   bottom: 110px;
   left: 300px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-map button.map-senter04 {
+  body div#content.news01 section.page03 .page03-map button.map-senter04 {
     bottom: 45px;
     left: 110px;
   }
 }
 
-body div#content.main section.page03 .page03-modal {
+body div#content.news01 section.page03 .page03-modal {
   display: none;
   position: absolute;
   top: 50%;
@@ -2525,57 +2564,57 @@ body div#content.main section.page03 .page03-modal {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal {
+  body div#content.news01 section.page03 .page03-modal {
     width: 380px;
   }
 }
 
-body div#content.main section.page03 .page03-modal h3 {
+body div#content.news01 section.page03 .page03-modal h3 {
   font-size: 40px;
   margin: 0 0 20px 0;
   font-weight: 500;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal h3 {
+  body div#content.news01 section.page03 .page03-modal h3 {
     font-size: 20px;
   }
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal img {
+  body div#content.news01 section.page03 .page03-modal img {
     width: 100%;
   }
 }
 
-body div#content.main section.page03 .page03-modal strong {
+body div#content.news01 section.page03 .page03-modal strong {
   display: block;
   font-size: 150px;
   color: red;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal strong {
+  body div#content.news01 section.page03 .page03-modal strong {
     font-size: 50px;
   }
 }
 
-body div#content.main section.page03 .page03-modal strong.active {
+body div#content.news01 section.page03 .page03-modal strong.active {
   color: green;
 }
 
-body div#content.main section.page03 .page03-modal p {
+body div#content.news01 section.page03 .page03-modal p {
   margin: 0;
   font-size: 28px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal p {
+  body div#content.news01 section.page03 .page03-modal p {
     font-size: 10px;
   }
 }
 
-body div#content.main section.page03 .page03-modal button {
+body div#content.news01 section.page03 .page03-modal button {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -2584,24 +2623,24 @@ body div#content.main section.page03 .page03-modal button {
   background: none;
 }
 
-body div#content.main section.page03 .page03-modal button i {
+body div#content.news01 section.page03 .page03-modal button i {
   font-size: 40px;
   color: #000;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main section.page03 .page03-modal button i {
+  body div#content.news01 section.page03 .page03-modal button i {
     font-size: 20px;
   }
 }
 
-body div#content.main .page04 {
+body div#content.news01 .page04 {
   height: auto;
   position: relative;
   padding: 40px 0;
 }
 
-body div#content.main .page04 .line-wrapper {
+body div#content.news01 .page04 .line-wrapper {
   display: block;
   width: 2px;
   height: 400vh;
@@ -2609,18 +2648,18 @@ body div#content.main .page04 .line-wrapper {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .line-wrapper {
+  body div#content.news01 .page04 .line-wrapper {
     height: 300vh;
   }
 }
 
-body div#content.main .page04 .line-wrapper .line-container {
+body div#content.news01 .page04 .line-wrapper .line-container {
   height: 100%;
   width: 1px;
   background: transparent;
 }
 
-body div#content.main .page04 .line-wrapper .line-container .line-bar {
+body div#content.news01 .page04 .line-wrapper .line-container .line-bar {
   width: 2px;
   min-height: 0;
   background: black;
@@ -2628,11 +2667,11 @@ body div#content.main .page04 .line-wrapper .line-container .line-bar {
   transition: all 20s linear;
 }
 
-body div#content.main .page04 .line-wrapper .line-container .line-bar.on {
+body div#content.news01 .page04 .line-wrapper .line-container .line-bar.on {
   min-height: 100%;
 }
 
-body div#content.main .page04 .page04-area {
+body div#content.news01 .page04 .page04-area {
   position: absolute;
   top: 0;
   left: 50%;
@@ -2644,88 +2683,90 @@ body div#content.main .page04 .page04-area {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area {
+  body div#content.news01 .page04 .page04-area {
     width: 100%;
     padding: 50px 20px;
   }
 }
 
-body div#content.main .page04 .page04-area:nth-child(2) {
+body div#content.news01 .page04 .page04-area:nth-child(2) {
   margin-top: 30vh;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area:nth-child(2) {
+  body div#content.news01 .page04 .page04-area:nth-child(2) {
     margin-top: 15vh;
   }
 }
 
-body div#content.main .page04 .page04-area:nth-child(3) {
+body div#content.news01 .page04 .page04-area:nth-child(3) {
   margin-top: 150vh;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area:nth-child(3) {
+  body div#content.news01 .page04 .page04-area:nth-child(3) {
     margin-top: 100vh;
   }
 }
 
-body div#content.main .page04 .page04-area:nth-child(4) {
+body div#content.news01 .page04 .page04-area:nth-child(4) {
   margin-top: 270vh;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area:nth-child(4) {
+  body div#content.news01 .page04 .page04-area:nth-child(4) {
     margin-top: 200vh;
   }
 }
 
-body div#content.main .page04 .page04-area h3 {
+body div#content.news01 .page04 .page04-area h3 {
   font-size: 60px;
   font-weight: 500;
   margin: 20px 0 30px;
+  font-family: 'NotoSerifKR';
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area h3 {
+  body div#content.news01 .page04 .page04-area h3 {
     font-size: 30px;
   }
 }
 
-body div#content.main .page04 .page04-area p {
-  font-size: 28px;
-  font-weight: 300;
+body div#content.news01 .page04 .page04-area p {
+  font-size: 25px;
+  font-weight: 400;
   margin: 0;
+  font-family: 'NotoSerifKR';
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area p {
+  body div#content.news01 .page04 .page04-area p {
     font-size: 15px;
   }
 }
 
-body div#content.main .page04 .page04-area img {
+body div#content.news01 .page04 .page04-area img {
   margin-top: 30px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page04 .page04-area img {
+  body div#content.news01 .page04 .page04-area img {
     width: 100%;
   }
 }
 
-body div#content.main .page05 {
+body div#content.news01 .page05 {
   position: relative;
   background: url(/source/images/jejuimage05.png) no-repeat center/cover;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 {
+  body div#content.news01 .page05 {
     width: 100vw;
   }
 }
 
-body div#content.main .page05::before {
+body div#content.news01 .page05::before {
   content: '';
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -2735,7 +2776,7 @@ body div#content.main .page05::before {
   right: 0;
 }
 
-body div#content.main .page05 .swiper-container {
+body div#content.news01 .page05 .swiper-container {
   width: 880px;
   height: 700px;
   position: absolute;
@@ -2747,14 +2788,14 @@ body div#content.main .page05 .swiper-container {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-container {
+  body div#content.news01 .page05 .swiper-container {
     width: 100%;
     height: 100%;
   }
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-container .swiper-slide {
+  body div#content.news01 .page05 .swiper-container .swiper-slide {
     padding: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2773,24 +2814,24 @@ body div#content.main .page05 .swiper-container {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-container .swiper-slide img {
+  body div#content.news01 .page05 .swiper-container .swiper-slide img {
     width: 100%;
   }
 }
 
-body div#content.main .page05 .swiper-container .swiper-slide p {
+body div#content.news01 .page05 .swiper-container .swiper-slide p {
   font-size: 20px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-container .swiper-slide p {
+  body div#content.news01 .page05 .swiper-container .swiper-slide p {
     margin-top: 30px;
     font-size: 13px;
   }
 }
 
-body div#content.main .page05 .swiper-prev,
-body div#content.main .page05 .swiper-next {
+body div#content.news01 .page05 .swiper-prev,
+body div#content.news01 .page05 .swiper-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -50%);
@@ -2802,49 +2843,49 @@ body div#content.main .page05 .swiper-next {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-prev,
-  body div#content.main .page05 .swiper-next {
+  body div#content.news01 .page05 .swiper-prev,
+  body div#content.news01 .page05 .swiper-next {
     width: 30px;
     height: 15px;
   }
 }
 
-body div#content.main .page05 .swiper-prev.swiper-prev,
-body div#content.main .page05 .swiper-next.swiper-prev {
+body div#content.news01 .page05 .swiper-prev.swiper-prev,
+body div#content.news01 .page05 .swiper-next.swiper-prev {
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' style='fill: rgba(0, 0, 0, 1);transform: ;msFilter:;'%3E%3Cpath d='M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z'%3E%3C/path%3E%3C/svg%3E") no-repeat center/cover;
   left: 50%;
   margin-left: -550px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-prev.swiper-prev,
-  body div#content.main .page05 .swiper-next.swiper-prev {
+  body div#content.news01 .page05 .swiper-prev.swiper-prev,
+  body div#content.news01 .page05 .swiper-next.swiper-prev {
     left: 15px;
     margin-left: 0px;
   }
 }
 
-body div#content.main .page05 .swiper-prev.swiper-next,
-body div#content.main .page05 .swiper-next.swiper-next {
+body div#content.news01 .page05 .swiper-prev.swiper-next,
+body div#content.news01 .page05 .swiper-next.swiper-next {
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' style='fill: rgba(0, 0, 0, 1);transform: ;msFilter:;'%3E%3Cpath d='M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z'%3E%3C/path%3E%3C/svg%3E") no-repeat center/cover;
   right: 50%;
   margin-right: -520px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page05 .swiper-prev.swiper-next,
-  body div#content.main .page05 .swiper-next.swiper-next {
+  body div#content.news01 .page05 .swiper-prev.swiper-next,
+  body div#content.news01 .page05 .swiper-next.swiper-next {
     right: 15px;
     margin-right: 0px;
   }
 }
 
-body div#content.main .page06 {
+body div#content.news01 .page06 {
   position: relative;
   background: url(/source/images/jejuimage06.png) no-repeat center/cover fixed;
 }
 
-body div#content.main .page06::before {
+body div#content.news01 .page06::before {
   content: '';
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -2854,7 +2895,7 @@ body div#content.main .page06::before {
   right: 0;
 }
 
-body div#content.main .page06 .page06-text {
+body div#content.news01 .page06 .page06-text {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -2865,36 +2906,36 @@ body div#content.main .page06 .page06-text {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page06 .page06-text {
+  body div#content.news01 .page06 .page06-text {
     top: 20%;
   }
 }
 
-body div#content.main .page06 .page06-text h3 {
+body div#content.news01 .page06 .page06-text h3 {
   margin: 0;
   font-size: 60px;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page06 .page06-text h3 {
+  body div#content.news01 .page06 .page06-text h3 {
     font-size: 20px;
   }
 }
 
-body div#content.main .page06 .page06-text h4 {
+body div#content.news01 .page06 .page06-text h4 {
   margin: 10px 0 0;
   font-size: 20px;
   font-weight: 500;
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page06 .page06-text h4 {
+  body div#content.news01 .page06 .page06-text h4 {
     margin: 5px 0 0;
     font-size: 11px;
   }
 }
 
-body div#content.main .page06 .link-box {
+body div#content.news01 .page06 .link-box {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -2911,13 +2952,13 @@ body div#content.main .page06 .link-box {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page06 .link-box {
+  body div#content.news01 .page06 .link-box {
     width: 100%;
     padding: 0 20px;
   }
 }
 
-body div#content.main .page06 .link-box a {
+body div#content.news01 .page06 .link-box a {
   width: 500px;
   height: 70px;
   padding: 20px;
@@ -2940,14 +2981,14 @@ body div#content.main .page06 .link-box a {
 }
 
 @media (max-width: 1200px) {
-  body div#content.main .page06 .link-box a {
+  body div#content.news01 .page06 .link-box a {
     width: 100%;
     height: 55px;
     font-size: 13px;
   }
 }
 
-body div#content.main .page06 .link-box a:hover {
+body div#content.news01 .page06 .link-box a:hover {
   background: #444;
   color: #fff;
 }

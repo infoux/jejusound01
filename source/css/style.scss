@@ -102,7 +102,7 @@ header {
     div#content {
 
         /* MAIN */
-        &.main {
+        &.news01 {
           section.page01{
             position: relative;
             background: url("/source/images/jejuimage01.png") no-repeat center / cover fixed;
@@ -294,6 +294,7 @@ header {
               left: 50%;
               transform: translate(-50%, -50%);
               img{
+                width: 900px;
                 @media (max-width: $screen-size-mobile){
                   width: 350px;
                 }
@@ -478,14 +479,16 @@ header {
                 font-size: 60px;
                 font-weight: 500;
                 margin: 20px 0 30px;
+                font-family: 'NotoSerifKR';
                 @media (max-width: $screen-size-mobile){
                   font-size: 30px;
                 }
               }
               p{
-                font-size: 28px;
-                font-weight: 300;
+                font-size: 25px;
+                font-weight: 400;
                 margin: 0;
+                font-family: 'NotoSerifKR';
                 @media (max-width: $screen-size-mobile){
                   font-size: 15px;
                 }
