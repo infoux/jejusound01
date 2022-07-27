@@ -45,12 +45,20 @@ $(function(){
           }
         }
 
-        const ofset = $('.line-wrapper').offset().top;
-        if(scrollBottom>ofset){
-          $('.line-bar').addClass('on')
-        } else {
-          $('.line-bar').removeClass('on')
+        const line = $('.line-wrapper')
+        let ofset
+        if(line.length){
+            ofset = line.offset().top;
         }
+
+        if(ofset){
+          if(scrollBottom>ofset){
+            $('.line-bar').addClass('on')
+          } else {
+            $('.line-bar').removeClass('on')
+          }
+        }
+        
     
     })
 
