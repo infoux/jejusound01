@@ -2362,7 +2362,7 @@ body div#content.news01 section.page02 .scroll-graphic .graphic-item .step {
   color: #fff;
   background: rgba(255, 255, 255, 0.9);
   width: 850px;
-  padding: 50px;
+  padding: 50px 50px 50px 70px;
   border-radius: 5px;
 }
 
@@ -2690,7 +2690,7 @@ body div#content.news01 .page04 .page04-area {
 }
 
 body div#content.news01 .page04 .page04-area:nth-child(2) {
-  margin-top: 30vh;
+  margin-top: 40vh;
 }
 
 @media (max-width: 1200px) {
@@ -2700,7 +2700,7 @@ body div#content.news01 .page04 .page04-area:nth-child(2) {
 }
 
 body div#content.news01 .page04 .page04-area:nth-child(3) {
-  margin-top: 150vh;
+  margin-top: 160vh;
 }
 
 @media (max-width: 1200px) {
@@ -2710,7 +2710,7 @@ body div#content.news01 .page04 .page04-area:nth-child(3) {
 }
 
 body div#content.news01 .page04 .page04-area:nth-child(4) {
-  margin-top: 270vh;
+  margin-top: 280vh;
 }
 
 @media (max-width: 1200px) {
@@ -2821,6 +2821,7 @@ body div#content.news01 .page05 .swiper-container {
 
 body div#content.news01 .page05 .swiper-container .swiper-slide p {
   font-size: 20px;
+  padding: 0 20px;
 }
 
 @media (max-width: 1200px) {

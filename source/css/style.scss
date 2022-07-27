@@ -219,7 +219,7 @@ header {
                 color: #fff;
                 background: rgba(255,255,255,0.9);
                 width: 850px;
-                padding: 50px;
+                padding: 50px 50px 50px 70px;
                 border-radius: 5px;
                 @media (max-width: $screen-size-mobile){
                   width: 100%;
@@ -458,19 +458,19 @@ header {
                 padding: 50px 20px;
               }
               &:nth-child(2){
-                margin-top: 30vh;
+                margin-top: 40vh;
                 @media (max-width: $screen-size-mobile){
                   margin-top: 15vh;
                 }
               }
               &:nth-child(3){
-                margin-top: 150vh;
+                margin-top: 160vh;
                 @media (max-width: $screen-size-mobile){
                   margin-top: 100vh;
                 }
               }
               &:nth-child(4){
-                margin-top: 270vh;
+                margin-top: 280vh;
                 @media (max-width: $screen-size-mobile){
                   margin-top: 200vh;
                 }
@@ -547,6 +547,7 @@ header {
                 }
                 p{
                   font-size: 20px;
+                  padding: 0 20px;
                   @media (max-width: $screen-size-mobile){
                     margin-top: 30px;
                     font-size: 13px;
