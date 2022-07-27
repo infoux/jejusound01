@@ -1,22 +1,21 @@
-        
-    @font-face {
-      font-family: 'KOTRALEAP';
-      src: url(../font/KOTRALEAP.woff2) format('woff2');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'S-CoreDream';
-    src: url(../font/S-CoreDream-4Regular.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
+@font-face {
+  font-family: 'KOTRALEAP';
+  src: url(../font/KOTRALEAP.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
-  @font-face {
-    font-family: 'S-CoreDream';
-    src: url(../font/S-CoreDream-5Medium.woff) format('woff');
-    font-weight: 500;
-    font-style: normal;
+
+@font-face {
+  font-family: 'S-CoreDream';
+  src: url(../font/S-CoreDream-4Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream';
+  src: url(../font/S-CoreDream-5Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
@@ -27,67 +26,58 @@
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-ExtraLight.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-ExtraLight.otf) format('opentype');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Light.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Light.otf) format('opentype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Regular.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Regular.otf) format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Medium.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Medium.otf) format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-SemiBold.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-SemiBold.otf) format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Bold.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Bold.otf) format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Black.otf) format('oft');
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Black.otf) format('opentype');
   font-weight: 900;
   font-style: normal;
 }
 
-
-
-
-
-
-$myfont: "S-CoreDream","NotoSerifKR";
-
+$myfont: 'S-CoreDream', 'Noto Serif KR';
 
 @mixin txt($weight) {
-    @if $weight == light {
-        font-weight:300;
-    }
-    @else if $weight == normal {
-        font-weight:400;
-    }
-    @else if $weight == bold {
-        font-weight:700;
-    }
-    @else if $weight == bolder {
-        font-weight:800;
-    }
+  @if $weight == light {
+    font-weight: 300;
+  } @else if $weight == normal {
+    font-weight: 400;
+  } @else if $weight == bold {
+    font-weight: 700;
+  } @else if $weight == bolder {
+    font-weight: 800;
+  }
 }

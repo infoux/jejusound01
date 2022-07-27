@@ -426,50 +426,50 @@ th {
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-ExtraLight.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-ExtraLight.otf) format("opentype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Light.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Light.otf) format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Regular.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Regular.otf) format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Medium.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Medium.otf) format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-SemiBold.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-SemiBold.otf) format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Bold.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Bold.otf) format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSerifKR';
-  src: url(../font/NotoSerifKR-Black.otf) format("oft");
+  font-family: 'Noto Serif KR';
+  src: url(../font/NotoSerifKR-Black.otf) format("opentype");
   font-weight: 900;
   font-style: normal;
 }
@@ -593,22 +593,22 @@ input[type="password"] {
 
 s
 input[type="password"]::-webkit-input-placeholder {
-  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "Noto Serif KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]:-ms-input-placeholder {
-  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "Noto Serif KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]::-ms-input-placeholder {
-  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "Noto Serif KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 s
 input[type="password"]::placeholder {
-  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "Noto Serif KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 .sr-only {
@@ -2099,7 +2099,7 @@ html {
 
 body,
 html {
-  font-family: "S-CoreDream", "NotoSerifKR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
+  font-family: "S-CoreDream", "Noto Serif KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 @media (max-width: 1199px) {
@@ -2148,7 +2148,8 @@ body .blan {
   height: 60vh;
 }
 
-body ul, body li {
+body ul,
+body li {
   list-style: none;
   padding: 0;
 }
@@ -2663,8 +2664,8 @@ body div#content.news01 .page04 .line-wrapper .line-container .line-bar {
   width: 2px;
   min-height: 0;
   background: black;
-  -webkit-transition: all 20s linear;
-  transition: all 20s linear;
+  -webkit-transition: all 25s linear;
+  transition: all 25s linear;
 }
 
 body div#content.news01 .page04 .line-wrapper .line-container .line-bar.on {
@@ -2695,7 +2696,7 @@ body div#content.news01 .page04 .page04-area:nth-child(2) {
 
 @media (max-width: 1200px) {
   body div#content.news01 .page04 .page04-area:nth-child(2) {
-    margin-top: 15vh;
+    margin-top: 30vh;
   }
 }
 
@@ -2705,7 +2706,7 @@ body div#content.news01 .page04 .page04-area:nth-child(3) {
 
 @media (max-width: 1200px) {
   body div#content.news01 .page04 .page04-area:nth-child(3) {
-    margin-top: 100vh;
+    margin-top: 110vh;
   }
 }
 
@@ -2715,7 +2716,7 @@ body div#content.news01 .page04 .page04-area:nth-child(4) {
 
 @media (max-width: 1200px) {
   body div#content.news01 .page04 .page04-area:nth-child(4) {
-    margin-top: 200vh;
+    margin-top: 210vh;
   }
 }
 
@@ -2977,8 +2978,8 @@ body div#content.news01 .page06 .link-box a {
       -ms-flex-pack: center;
           justify-content: center;
   border: 2px solid #000;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 @media (max-width: 1200px) {
