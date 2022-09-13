@@ -66,7 +66,7 @@ $(function(){
 });
 
 
-
+// 모달
 function mapModal(){
   // 제주환경자원순환센터
   $('.page03-map .map-senter01').on('click',function(){
